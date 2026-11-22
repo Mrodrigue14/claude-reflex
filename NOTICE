@@ -1,0 +1,10 @@
+claude-reflex
+Copyright 2026 claude-reflex contributors
+
+The reflex design (rules and a small local classifier in front of the LLM, kept
+in a persistent background process) is inspired by Nūs Companion
+(https://github.com/potlakai/nus-companion), licensed under Apache-2.0.
+
+The classifier uses multilingual-e5-small (intfloat, MIT license) in the ONNX
+export published by Xenova on Hugging Face. The model is downloaded by
+install.py and is not included in this repository.

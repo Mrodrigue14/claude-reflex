@@ -1,0 +1,13 @@
+{
+  "sites": {
+    "calendar": "https://calendar.google.com",
+    "my school": "https://portal.example.edu"
+  },
+  "aliases": {
+    "paint": ["paint"],
+    "terminal": ["terminal", "windows terminal"]
+  },
+  "examples": {
+    "open_site": ["show me my calendar"]
+  }
+}
